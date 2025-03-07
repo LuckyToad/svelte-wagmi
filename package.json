@@ -1,12 +1,15 @@
 {
-	"name": "svelte-wagmi",
+	"name": "@luckytoad/svelte-wagmi",
 	"author": "@softwarecurator",
 	"version": "1.0.8",
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/softwarecurator/svelte-wagmi.git"
+		"url": "git+https://github.com/luckytoad/svelte-wagmi.git"
 	},
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com"
+	  },
 	"keywords": [
 		"wagmi",
 		"svelte-wagmi",
